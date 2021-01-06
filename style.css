@@ -76,7 +76,9 @@ p{
 }
 a:hover{
     font-weight: 600;
-    background: linear-gradient(45deg, #F7B632, #FFAB2E);
+    background: linear-gradient(45deg, #5555D9, #918EE4);
+    padding: 10px 40px;
+    border-radius: 6px;
     transition: 0.5s;
 }
 /*hello section ends */
@@ -92,7 +94,7 @@ h2{
 /*projects section starts */
 .projects{
     background: #E5E5E5;
-    padding-bottom: 300px;
+    padding-bottom: 350px;
 }
 .projects h2{
     text-align: center;
@@ -130,38 +132,41 @@ h3{
 /*testimonial section starts */
 .testimonial{
     text-align: center;
+    height: 400px;
+    padding-top: 20px;
 }
 /*testimonial section ends */
-/*connect section starts */
-.connect{
-    background-image: url(shapes/connect-bg.png);
+/*contact section starts */
+.contact{
+    background-image: url(images/contact-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 906px;
     height: 225px;
     margin: 0 auto;
 }
-.connect h1{
+.contact h1{
     font-size: 64px;
     color: white;
 }
-.connect-text{
+.contact-text{
     width: 60%;
     float: left;
     padding-left: 61px;
     padding-top: 25px;
 }
-.connect-button{
+.contact-button{
     width: 20%;
     float: right;
     padding-top: 100px;
     padding-right: 57px;
 }
-/*connect section ends */
+/*contact section ends */
 /*footer section starts */
 footer{
     text-align: center;
     margin-top: 100px;
+    padding-bottom: 10px;
 }
 h5{
     font-family: 'Bebas Neue', cursive;
