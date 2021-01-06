@@ -132,3 +132,56 @@ h3{
     text-align: center;
 }
 /*testimonial section ends */
+/*connect section starts */
+.connect{
+    background-image: url(shapes/connect-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 906px;
+    height: 225px;
+    margin: 0 auto;
+}
+.connect h1{
+    font-size: 64px;
+    color: white;
+}
+.connect-text{
+    width: 60%;
+    float: left;
+    padding-left: 61px;
+    padding-top: 25px;
+}
+.connect-button{
+    width: 20%;
+    float: right;
+    padding-top: 100px;
+    padding-right: 57px;
+}
+/*connect section ends */
+/*footer section starts */
+footer{
+    text-align: center;
+    margin-top: 100px;
+}
+h5{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    color: #696871;
+    line-height: 1px;
+}
+h4{
+    font-size: 36px;
+    color: #363958;
+    line-height: 1px;
+}
+.icon_part img{
+    width: 40px;
+}
+.icon_part ul{
+    list-style: none;
+}
+.icon_part ul li{
+    display: inline;
+    margin-right: 10px;
+}
+/*footer section ends */
