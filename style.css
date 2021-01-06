@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    height: 500px;
+}
+.common_text_styles{
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+}
+.text-highlight{
+    color: #F46060;
+}
+/* header starts */
+header{
+    margin: 30px 80px;
+    padding-bottom: 30px;
+}
+.nav{
+    width:70%;
+    float:right;
+}
+.nav ul{
+    list-style-type: none;
+    float:right;
+}
+.nav ul li{
+    float:left;
+    margin-left: 50px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #3C3C3C;
+    font-size: 16px;
+    font-weight: 500;
+}
+.nav ul li:last-child{
+    margin-right: 0px;
+}
+/* header ends */
+/* hello section starts */
+.hello{
+    margin: 0px 50px;
+    padding: 30px;
+}
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+}
+.half-width img {
+    width: 100%;
+}
+.hello h1{
+    font-size: 80px;
+}
+h1 span{
+    display: block;
+}
+p{
+    font-size: 16px;
+    color: #3E3E3E;
+    line-height: 24px;
+    padding-bottom: 30px;
+}
+.anchor-button {
+    text-decoration: none;
+    background: linear-gradient(60deg, #FF8063, #F46060);
+    padding: 10px 40px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+a:hover{
+    font-weight: 600;
+    background: linear-gradient(45deg, #F7B632, #FFAB2E);
+    transition: 0.5s;
+}
+/*hello section ends */
+/*about section starts */
+.about{
+    margin: 0px 50px;
+    padding: 30px;
+}
+h2{
+    font-size: 48px;
+}
+/*about section ends */
+/*projects section starts */
+.projects{
+    background: #E5E5E5;
+    padding-bottom: 300px;
+}
+.projects h2{
+    text-align: center;
+    padding: 80px 0px;
+}
+.work-wrapper{
+    margin: 50px;
+}
+.work{
+    width: 28%;
+    float: left;
+    margin-left: 3%;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+    padding: 10px;
+}
+.projects img{
+    width: 95%;
+    padding: 10px;
+}
+.work-text{
+    padding: 10px;
+}
+h3{
+    color: #363958;
+    font-size: 24px;
+    
+}
+.work-text p{
+    font-size: 16px;
+    color: #6C6C6C;
+}
+/*projects section ends */
+/*testimonial section starts */
+.testimonial{
+    text-align: center;
+}
+/*testimonial section ends */
